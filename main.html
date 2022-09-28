@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Adventure Trips</title>
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="logo">Adventure</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>Tours</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>About</li>
+            <li class="ctn"><a href="#"></a>Content</li>
+        </ul>
+        <img src="https://assets.stickpng.com/images/588a6507d06f6719692a2d15.png" alt="" class="menu-btn">
+    </nav>
+
+    <header>
+       <div class="header-content">
+        <h2>Explore the colorful world</h2>
+        <div class="line"></div>
+        <h1>A wonderful gift</h1>
+        <a href="Learn More" class="ctn"></a>
+       </div> 
+    </header>
+
+    <section class="events">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="https://img.freepik.com/premium-photo/woman-traveler-looking-caldera-from-fira-thera-santorini-island-greece-tourism-traveling-vacation-concept_106029-1429.jpg?w=2000" alt="">
+                <h4>Mountains</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis at similique et eos. Neque saepe autem, voluptatibus atque quo assumenda impedit consequatur temporibus accusantium dignissimos excepturi hic aliquid, ea et?</p>
+                <div class="ctn"><a href="#"></a>Learn More</div>
+            </div>
+            <div class="col">
+                <img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/beach-quotes-1559667853.jpg" alt="">
+                <h4>Beaches</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis at similique et eos. Neque saepe autem, voluptatibus atque quo assumenda impedit consequatur temporibus accusantium dignissimos excepturi hic aliquid, ea et?</p>
+                <div class="ctn"><a href="#"></a>Learn More</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="explore">
+        <div class="explore-content">
+            <h1>Explore the world</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis quibusdam quod est. Vitae placeat nulla, atque quaerat eveniet hic minima, officia sit accusamus velit necessitatibus.</p>
+            <a href="#" class="ctn">Learn More</a>
+        </div>
+    </section>
+
+    <section class="tours">
+        <div class="row">
+            <div class="col content-col">
+                <h1>Upcoming Events</h1>
+                <div class="line"></div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam numquam ea sit voluptatum. Nisi voluptas ipsam aliquid distinctio a sit reiciendis rem libero deleniti? Repudiandae.
+                </p>
+                <a href="#" class="ctn"> Learn More</a>
+            </div>
+            <div class="col image-col">
+                <div class="image-gallery">
+                    <img src="https://media.istockphoto.com/photos/tandem-jump-in-paragliding-picture-id1141688597?k=20&m=1141688597&s=612x612&w=0&h=wWUzPjEfIQh3CP-z0xim2o-H_80Hkp632fzbskrIKdA=" alt="">
+                    <img src="https://firm.iitae.tech/wp-content/uploads/2019/11/adventure-travel-microsite-modernized-3.jpg" alt="">
+                    <img src="https://www.moneycrashers.com/wp-content/uploads/2018/10/cappadocia-turkey-hot-air-balloon.jpg" alt="">
+                    <img src="https://thumbs.dreamstime.com/b/happy-travel-woman-vacation-concept-funny-traveler-enjoy-her-trip-ready-to-adventure-happy-travel-woman-vacation-concept-118679424.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p>Lorem ipsum dolor sit amet consectetur.</p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn');
+        const navlinks = document.querySelector('.nav-links');
+        menuBtn.addEventListener('click',() =>{
+            navlinks.classList.toggle('mobile-menu');
+        })
+    </script>
+</body>
+</html>
